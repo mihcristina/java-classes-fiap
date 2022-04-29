@@ -12,5 +12,29 @@ public class Passenger {
 			this.rg = rg;
 			this.email = email;
 		}
+		
+		public int getId() {
+	        return id;
+	    }
+
+	    public String getName() {
+	        return name;
+	    }
+
+	    public void setName(String name) {
+	        this.name = name;
+	    }
+
+	    public String getRg() {
+	        return rg;
+	    }
+
+	    public void setRg(String rg) {
+	        this.rg = rg;
+	    }
+
+	    public String getEmail() {
+	        return email;
+	    }
 
 }
