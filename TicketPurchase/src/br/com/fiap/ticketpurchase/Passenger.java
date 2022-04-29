@@ -6,7 +6,7 @@ public class Passenger {
 		private String rg;
 		private String email;
 		
-		public void Passenger(int id, String name, String rg, String email) {
+		public Passenger(int id, String name, String rg, String email) {
 			this.id = id;
 			this.name = name;
 			this.rg = rg;
